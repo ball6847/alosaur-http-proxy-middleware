@@ -1,0 +1,14 @@
+{
+  "fmt": {
+    "include": ["src", "examples"],
+    "useTabs": false,
+    "semiColons": true,
+    "singleQuote": false,
+    "lineWidth": 80
+  },
+  "imports": {
+    "alosaur": "https://deno.land/x/alosaur@v0.38.0/mod.ts",
+    "alosaur-proxy-middleware": "./mod.ts",
+    "oak-http-middleware": "https://deno.land/x/oak_http_proxy@2.1.0/mod.ts"
+  }
+}
