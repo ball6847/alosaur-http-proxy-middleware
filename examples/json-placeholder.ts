@@ -1,4 +1,4 @@
-import { ProxyMiddleware } from "alosaur-proxy-middleware";
+import { ProxyMiddleware } from "https://cdn.jsdelivr.net/gh/ball6847/alosaur-http-proxy-middleware@0.0.1/mod.ts";
 import {
   App,
   type HttpContext,
