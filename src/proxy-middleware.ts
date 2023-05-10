@@ -42,11 +42,11 @@ export class ProxyMiddleware implements MiddlewareTarget<unknown> {
 
     await filterSrcReq(state)
       .then(buildProxyUrl(context))
-      .then(decorateProxyReqUrl) // user-defined url decorator
-      .then(buildProxyReqInit) // prepare most of default value for fetch request init
-      .then(decorateProxyReqInit) // user-defined req init
-      .then(prepareProxyReq) // prep content-length, if contains body
-      .then(sendProxyReq) // send actual request
+      .then(decorateProxyReqUrl)
+      .then(buildProxyReqInit)
+      .then(decorateProxyReqInit)
+      .then(prepareProxyReq)
+      .then(sendProxyReq)
       .then(filterProxyRes)
       .then(copyProxyResHeadersToUserRes)
       .then(decorateSrcResHeaders)

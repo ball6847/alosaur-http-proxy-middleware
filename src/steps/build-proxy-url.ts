@@ -1,4 +1,3 @@
-// import { ProxyState } from "../../dev_modules/oak-http-proxy/deps.ts";
 import type { ProxyState } from "../../deps.ts";
 import { parseUrl } from "../parse-url.ts";
 
