@@ -6,7 +6,7 @@ const isNullBodyStatus = (status: number) =>
 export function sendSrcRes(state: ProxyState) {
   const result: ActionResult = {
     status: state.proxy.res?.status,
-    headers: new Headers(), // header has been directly mutated by oak-proxy-middleware
+    headers: new Headers(), // header has been directly mutated by oak-proxy-middleware (copyProxyResHeadersToUserRes)
     __isActionResult: true,
   };
 
