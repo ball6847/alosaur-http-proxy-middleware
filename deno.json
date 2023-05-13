@@ -9,6 +9,7 @@
   "imports": {
     "alosaur": "https://deno.land/x/alosaur@v0.38.0/mod.ts",
     "alosaur-proxy-middleware": "./mod.ts",
-    "oak-http-middleware": "https://deno.land/x/oak_http_proxy@2.1.0/mod.ts"
+    "oak-http-middleware": "https://deno.land/x/oak_http_proxy@2.1.0/mod.ts",
+    "https://deno.land/x/opine@2.3.1/": "https://deno.land/x/opine@2.3.4/"
   }
 }

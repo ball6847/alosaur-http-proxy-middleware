@@ -8,10 +8,12 @@ export {
   decorateSrcRes,
   decorateSrcResHeaders,
   filterProxyRes,
-  prepareProxyReq, sendProxyReq, type ProxyOptions,
+  prepareProxyReq,
+  sendProxyReq,
+  type ProxyOptions,
+  type ProxyState,
   type ProxyUrlFunction
 } from "https://deno.land/x/oak_http_proxy@2.1.0/deps.ts";
-export type { ProxyState } from "https://deno.land/x/oak_http_proxy@2.1.0/deps.ts";
 export { buildProxyReqInit } from "https://deno.land/x/oak_http_proxy@2.1.0/src/steps/buildProxyReqInit.ts";
 export { copyProxyResHeadersToUserRes } from "https://deno.land/x/oak_http_proxy@2.1.0/src/steps/copyProxyResHeadersToUserRes.ts";
 export { filterSrcReq } from "https://deno.land/x/oak_http_proxy@2.1.0/src/steps/filterSrcReq.ts";
