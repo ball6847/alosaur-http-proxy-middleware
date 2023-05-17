@@ -1,6 +1,6 @@
 // deno-lint-ignore-file no-explicit-any
 import type { ProxyState } from "../../deps.ts";
-import { parseUrl } from "../parse-url.ts";
+import { parseUrl } from "../request-options.ts";
 
 export function buildProxyUrl(ctx: any) {
   return function (state: ProxyState) {
